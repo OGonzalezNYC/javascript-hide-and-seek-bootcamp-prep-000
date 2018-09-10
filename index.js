@@ -21,5 +21,19 @@ function increaseRankBy(n) {
   return y
 }
 
+//Define a function deepestChild() that pulls out the most deeply nested child from div#grand-node.
+function deepestChild() {
+  
+  //var z = 
+  return document.getElementById("grand-node").querySelectorAll("div")[document.getElementById("grand-node").querySelectorAll("div").length - 1]
+ 
+  
 
-//
+
+//function find(array, criteriaFn) {
+//  for (let i = 0; i < array.length; i++) {
+//    if (criteriaFn(array[i])) {
+//      return array[i]
+//    }
+//  }
+}
